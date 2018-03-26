@@ -1,15 +1,52 @@
 body
 {
+	background: url("img/background.jpeg") center no-repeat fixed;
 	font-family: Arial;
 }
 h1
 {
 	text-align: center;
 }
+h2
+{
+	border-bottom: 1px solid;
+}
+#index
+{
+	opacity: 0.9;
+	background-color: rgb(245, 245, 245);
+	margin: 10% 10% 0% 10%;
+	padding: 12px 12px 12px 12px;
+	line-height: 32px;
+}
 .main
 {
+	opacity: 0.9;
 	background-color: rgb(245, 245, 245);
-	margin: 15% 10% 0% 10%;
+	margin: 12px 10% 12px 10%;
 	padding: 12px 12px 12px 12px;
 	line-height: 24px;
+}
+.sub_index
+{
+	display: table;
+	border: 1px solid;
+	padding: 7px;
+}
+.h_sub_index
+{
+	text-align: center;
+}
+.index_list
+{
+	list-style-type: none;
+	list-style-image: none;
+	margin: 0px 0px 0px 0.5em;
+}
+.l2_i
+{
+	display: table;
+	border: 1px solid;
+	margin-left: 25%;
+	text-align: center;
 }
