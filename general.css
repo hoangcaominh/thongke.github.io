@@ -24,7 +24,7 @@ h2
 	opacity: 0.9;
 	background-color: rgb(245, 245, 245);
 	margin: 12px 10% 12px 10%;
-	padding: 12px 12px 12px 12px;
+	padding: 12px 18px 12px 18px;
 	line-height: 24px;
 }
 .sub_index
@@ -43,7 +43,7 @@ h2
 	list-style-image: none;
 	margin: 0px 0px 0px 0.5em;
 }
-.l2_i
+.l_i
 {
 	display: table;
 	border: 1px solid;
