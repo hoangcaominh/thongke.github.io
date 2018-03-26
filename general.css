@@ -50,3 +50,9 @@ h2
 	margin-left: 25%;
 	text-align: center;
 }
+td
+{
+	text-align: justify;
+	vertical-align: top;
+	padding: 48px 6px 0px 6px;
+}
