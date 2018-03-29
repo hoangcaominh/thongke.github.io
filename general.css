@@ -3,6 +3,10 @@ body
 	background: url("img/background.jpeg") center no-repeat fixed;
 	font-family: Arial;
 }
+p
+{
+	text-align: justify;
+}
 h1
 {
 	text-align: center;
@@ -26,10 +30,10 @@ a
 }
 .main
 {
-	opacity: 0.9;
+	opacity: 0.95;
 	background-color: rgb(245, 245, 245);
 	margin: 12px 10% 12px 10%;
-	padding: 12px 18px 12px 18px;
+	padding: 12px 24px 12px 24px;
 	line-height: 24px;
 }
 .sub_index
