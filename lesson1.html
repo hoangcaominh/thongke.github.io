@@ -7,6 +7,10 @@
 	</head>
 	<body>
 	<div class = "main">
+		<div class = "head">
+			<a href = "index.html" style = "padding-left: 43%;">Quay về mục lục</a>
+			<a href = "lesson2.html" style = "padding-left: 37%">Biểu đồ</a>
+		</div>
 		<h1>Bảng phân bố tần số và tần suât</h1>
 		<div class = "sub_index">
 			<h2 class = "h_sub_index">Mục lục</h2>
@@ -16,10 +20,12 @@
 					<li><a href = "#part1_1">1.1 Dấu hiệu. Giá trị của dấu hiệu</a></li>
 					<li><a href = "#part1_2">1.2 Tần số, tần suất</a></li>
 				</ul>
-				<li>2 Tần số</li>
-				<li>3 Tần suất</li>
-				<li>4 Bảng phân bố tần số và tần suất ghép lớp</li>
-				<li>5 Tham khảo</li>
+				<li><a href = "#part2">2 Bảng phân bố tần số và tần suất</a></li>
+				<ul class = "index_list">
+					<li><a href = "#part2_1">2.1 Bảng phân bố tần số và tần suất rời rạc</a></li>
+					<li><a href = "#part2_2">2.2 Bảng phân bố tần số và tần suất ghép lớp</a></li>
+				</ul>
+				<li><a href = "#part3">3 Các dạng bài tập</a></li>
 			</ul>
 		</div>
 		<br>
@@ -27,7 +33,7 @@
 			<h2>Khái niệm cơ bản</h2>
 			<div id = "part1_1">
 				<h3>Dấu hiệu. Giá trị của dấu hiệu</h3>
-				<p>
+				<p style = "text-align: justify">
 				Vấn đề người điều tra nghiên cứu quan tâm như dân số của một thành phố, tỉ lệ nam nữ của một nước, năng suất lúa trong 1 năm,... được gọi là <b>dấu hiệu</b>. Người thực hiện điều tra thống kê cần xác định tập hợp các đơn vị điều tra tương ứng với một số liệu gọi là <b>giá trị của dấu hiệu</b>. Người điều tra ghi các giá trị của số hiệu của các đơn vị vào bảng số liệu.<br>
 				<br>
 				Ví dụ: bảng số liệu dưới đây cho biết: Dấu hiệu điều tra là <i>diện tích của một số nước Đông Nam Á</i>, tập hợp các đơn vị điều tra là 5 nước trong bảng bên trái, các giá trị trong bảng bên phải là các <i>số liệu thống kê hay giá trị của dấu hiệu</i>.
@@ -38,12 +44,65 @@
 			</div>
 			<div id = "part1_2">
 				<h3>Tần số, tần suất</h3>
-				<p>
+				<p style = "text-align: justify">
 				Một bảng số liệu có N giá trị nhưng chỉ có k giá trị khác nhau x<sub>1</sub>, x<sub>2</sub>,..., x<sub>k</sub>.<br>
-				Giá trị x<sub>i</sub> xuất hiện n<sub>i</sub> lần, ta nói n<sub>i</sub> là <b>tần số</b> của giá trị x<sub>i</sub>, tỉ số f<sub>i</sub> = n<sub>i</sub>/N được gọi là <b>tần suất</b> của x<sub>i</sub>. Với:<br>
-				
+				Giá trị x<sub>i</sub> xuất hiện n<sub>i</sub> lần, ta nói n<sub>i</sub> là <b>tần số</b> của giá trị x<sub>i</sub>, tỉ số f<sub>i</sub> = n<sub>i</sub> / N được gọi là <b>tần suất</b> của x<sub>i</sub>. Với:<br>
+				<ul style = "list-style-type: none;">
+					<li>n<sub>1</sub> + n<sub>2</sub> + ... + n<sub>i</sub> = N</li>
+					<li>f<sub>1</sub> + f<sub>2</sub> + ... + f<sub>i</sub> = 1 (100%)</li>
+				</ul>
+				Ví dụ: trong bảng số liệu dưới đây có 6 giá trị khác nhau là: x<sub>1</sub> = 42; x<sub>2</sub> = 44; x<sub>3</sub> = 45; x<sub>4</sub> = 48; x<sub>5</sub> = 50; x<sub>6</sub> = 54.
+				<div class = "l_i">
+					<img src = "img/lesson1/2.jpg" width = "499">
+					<p><i>Thời gian hoàn thành một sản phẩm ở một nhóm công nhân (đơn vị: phút)</i></p>
+				</div>
+				<br>
+				Giá trị x<sub>1</sub> xuất hiện 4 lần, ta có n<sub>1</sub> = 4.<br>
+				Tương tự, n<sub>2</sub> = 5; n<sub>3</sub> = 20; n<sub>4</sub> = 10; n<sub>5</sub> = 8; n<sub>6</sub> = 3 lần lượt là tần số của các giá trị trên.<br>
+				<br>
+				Tần suất của giá trị x<sub>1</sub> là f<sub>1</sub> = 4 / 50 = 8%.<br>
+				Tương tự, f<sub>2</sub> = 5 / 50 = 10%; f<sub>3</sub> = 20 / 50 = 40%; f<sub>4</sub> = 10 / 50 = 20%; f<sub>5</sub> = 8 / 50 = 16%; f<sub>6</sub> = 3 / 50 = 6% lần lượt là tần suất của các giá trị trên.<br>
 				</p>
 			</div>
+		</div>
+		<div id = "part2">
+			<h2>Bảng phân bố tần số và tần suất</h2>
+			<div id = "part2_1">
+				<h3>Bảng phân bố tần số và tần suất rời rạc</h3>
+				<p style = "text-align: justify;">
+				Từ bảng số liệu thống kê ta liệt kê ra các giá trị khác nhau và các tần số, tần suất tương ứng ta được <b>bảng phân bố tần số, tần suất rời rạc</b>.<br>
+				Ví dụ về bảng phân bố tần số và tần suất rời rạc:<br>
+				<div class = "l_i">
+					<img src = "img/lesson1/3.png" width = "499">
+					<p><i>Bảng phân bố tuổi thọ của 30 bóng đèn<br>điện được thắp thử (đơn vị: giờ)</i></p>
+				</div>
+				<br>
+				Mỗi giá trị về tuổi thọ của bóng đèn đều có tần số và tần suất của giá trị đó.<br>
+				</p>
+			</div>
+			<div id = "part2_2">
+				<h3>Bảng phân bố tần số và tần suất ghép lớp</h3>
+				<p style = "text-align: justify;">
+				Khi có một bảng số liệu thống kê có một số khá lớn các số liệu người ta chia các số liệu thành các lớp. Khoảng chứa tất cả các số liệu được chia thành các khoảng hay nửa khoảng nhỏ bằng nhau. Mỗi khoảng nhỏ là một lớp. Số các số liệu nằm trong một lớp là tần số của lớp ấy. tỉ số của tần số một lớp với tổng các số liệu của bảng là tần suất của lớp ấy. Mỗi lớp ta chọn một giá trị đại diện cho các giá trị của lớp. Thường thường lớp (x<sub>i</sub>; x<sub>i + 1</sub>) người ta lấy <img src = "img/lesson1/3.1.gif" width = "125"> làm giá trị đại diện. Bảng ghi tất cả các lớp với các tần số, tần suất tương ứng được gọi là <b>bảng phân bố tần số, tàn suất ghép lớp</b>.<br>
+				Ngoài ra, nếu bảng đó bỏ cột tần số thì sẽ có <b>bảng phân bố tần suất ghép lớp</b>, bỏ cột tần suất thì sẽ có <b>bảng phân bố tần số ghép lớp</b>.<br>
+				<br>
+				Ví dụ về bảng phân bố tần số và tần suất ghép lớp:
+				<div class = "l_i">
+					<img src = "img/lesson1/4.jpg" width = "499">
+					<p><i>Bảng phân bố tần số và tần suất ghép lớp chiều cao của<br>35 cây bạch đàn (đơn vị: mét)</i></p>
+				</div>
+				<br>
+				Các giá trị cùng thuộc một nhóm trong cột <i>lớp</i> được xếp vào một nhóm và nhóm đó có tần số và tần suất từ các giá trị bên trong nhóm đó.<br>
+				</p>
+			</div>
+		<div id = "part3">
+			<h2>Các dạng bài tập</h2>
+			<ol>
+				<li>Cho các số liệu thống kê, lập bảng phân bố tần số và tần suất.</li>
+				<li>Cho bảng phân bố tần suất, lập bảng phân bố tần số và ngược lại.</li>
+				<li>Cho bảng phân bố, nhận xét về dấu hiệu của bảng.</li>
+			</ol>
+		</div>
 		</div>
 		<div class = "foot">
 			<a href = "index.html" style = "padding-left: 43%;">Quay về mục lục</a>
